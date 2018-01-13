@@ -7,5 +7,6 @@ class Show < ActiveRecord::Base
     new_network = Network.new(attributes)
     self.network = new_network
   end
+  def 
 
 end
