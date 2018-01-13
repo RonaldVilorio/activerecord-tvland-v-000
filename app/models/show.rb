@@ -2,7 +2,7 @@ class Show < ActiveRecord::Base
   has_many :characters
   has_many :actors, through: :characters
   belongs_to :network
-  has_many :genres
+  has_many :genres, through: :network
 
   def build_network(attributes)
     new_network = Network.new(attributes)
