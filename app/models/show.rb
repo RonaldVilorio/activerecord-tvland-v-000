@@ -7,7 +7,7 @@ class Show < ActiveRecord::Base
     new_network = Network.new(attributes)
 
 
-    # binding.pry
+     binding.pry
   end
 
 end
