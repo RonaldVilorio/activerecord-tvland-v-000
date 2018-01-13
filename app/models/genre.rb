@@ -1,3 +1,3 @@
 class Genre < ActiveRecord::Base
-  has_many :shows
+  belongs_to :show
 end
