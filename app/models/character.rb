@@ -6,7 +6,7 @@ class Character < ActiveRecord::Base
   end
 
   def build_show(attributes)
-    binding.pry
+    
   end
 
 
