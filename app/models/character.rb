@@ -9,9 +9,9 @@ class Character < ActiveRecord::Base
     new_show = Show.new(attributes)
     self.show = new_show
   end
-  def build_network
+  def build_network(attributes)
+    attributes
   end
-
 
 
 end
