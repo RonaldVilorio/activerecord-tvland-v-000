@@ -1,3 +1,3 @@
 class Genre < ActiveRecord::Base
-  has_many :show
+  has_many :shows, through: :network
 end
