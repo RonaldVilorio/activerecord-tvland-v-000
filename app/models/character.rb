@@ -9,8 +9,6 @@ class Character < ActiveRecord::Base
     binding.pry
     new_show = Show.new(attributes)
     self.show = new_show
-
-
   end
 
 
