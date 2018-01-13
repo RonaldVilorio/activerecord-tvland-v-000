@@ -9,6 +9,6 @@ class Show < ActiveRecord::Base
     self.network = new_network
   end
   def genre=(genre)
-
+  
   end
 end
